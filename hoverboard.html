@@ -1,0 +1,28 @@
+<!-- deklarasi tipe dokumen, yang menentukan bahwa dokumen tersebut 
+     ditulis dalam HTML5. -->
+<!DOCTYPE html>
+<!-- tag pembuka untuk dokumen HTML -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Menghubungkan file pada css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Mengambil gambar pada file ico -->
+    <link rel="icon" href="inkayacu.ico" type="image/x-icon" style="border-radius: 50px;">
+    <title>Tugas Hoverboard HTML CSS JS</title>
+  </head>
+  <body>
+    <div class="container" id="container"></div>
+    <!-- Menghubungkan file JS -->
+    <script src="script.js"></script>
+  </body>
+  <button onclick="goBack()">Kembali
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    </button>
+</html>
